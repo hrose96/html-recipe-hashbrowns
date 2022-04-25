@@ -1,95 +1,125 @@
-<!DOCTYPE html>
-<html lang="en-US">
+.wow {
+  width: 100px;
+}
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="/css/style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=nameofthefont" />
-</head>
+body {
+  background-image: url();
+  background: #E8E8E8;
+  color: #00000;
+  font-family: "Josefin Sans", sans-serif;
+  margin: 20px;
+  padding: 20px;
+  /*font-weight: bold; */
+}
 
-<body>
-  <div class="div-1">
-    <h1>All Things Breakfast</h1>
-    <br>
-    <a href="https://bakeitwithlove.com/homemade-hash-browns/">Homemade Hash Browns</a>
-    <br><br><br><br>
-    <div class="div-2">
-      <h2>Hash Browns</h2>
-      <p>Recipe by Angela @ <a href="https://bakeitwithlove.com/"> Bakeitwithlove.com </a> </p>
-    </div>
-    <br>
-    <div class="div-3">
-      <figure id="hash-browns">
-        <img src="images/hash_browns.jpg" alt="Hash Browns" style="aspect-ratio:auto">
-        <figcaption>Photo by: Jeffreyw on <a href="https://flic.kr/p/89Lrh9"> flickr</a>, CC BY-SA 4.0 <a
-            href="https://creativecommons.org/licenses/by-sa/4.0"> Creative Commons</a>, via Wikimedia Commons
-        </figcaption>
-      </figure>
-    </div>
-    <br>
-    <div class="div-4">
-      <p>
-      <h3>Ingredients</h3>
-      <br>
-      <ul>
-        <li>Russet Potatoes - Red or yellow potatoes are great for this recipe too.</li><br>
-        <li>Olive Oil - Or any vegetable oil to fry with.</li><br>
-        <li>Seasoning - salt & pepper, fresh or dried chives.</li><br>
-        <li>Sharp Cheddar - Optional if you want cheesy hash-browns!</li><br>
-    </div>
-    <br>
-    <div class="div-5">
-      <h3>Conversion</h3>
-      <br>
-      <form>
-        <input type="number" id="tbsp" name="tbsp" placeholder="tablespoons"> = <input type="number" id="cups"
-          name="cups" placeholder="cups">
-        <br><br><br>
-        <h3>Rate this recipe</h3>
-        <fieldset>
-          <legend>
-            <h4>What skill level is this recipe?</h4>
-          </legend>
-          <input type="radio" id="easy" name="level_easy" value="easy">
-          <label for="easy">Easy</label>
-          <input type="radio" id="intermediate" name="level_intermediate" value="intermediate">
-          <label for="intermediate">Intermediate</label>
-          <input type="radio" id="hard" name="level_hard" value="hard">
-          <label for="hard">Hard</label>
-        </fieldset>
-      </form>
-      </ul>
-    </div>
-    <br>
-    <div class="div-6">
-      <h3>Directions</h3><br>
-      Peel and grate your fresh, raw, russet potatoes.
-      Then, place the grated potatoes in a medium-sized mixing bowl filled with cold water let them soak for 15
-      minutes.<br><br>
-      Once all of your potatoes have soaked, squeeze the excess liquid from the grated potatoes and place them onto
-      paper towels. Continue until you have squeezed the water and starch from all of your grated potatoes.<br><br>
-      Pat the grated potatoes dry before frying them.
-      Preheat a large frying pan or skillet with the olive oil to medium-high heat. The oil should begin to shimmer
-      when heated fully.<br><br>
-      Portion hash browns into serving size patties (if desired) or place into an oiled, heated frying pan.<br><br>
-      Add the salt, pepper, and dried chives for seasoning.
-      Cover and cook for 5 minutes. Remove the lid and flip hash browns over.<br><br>They should be nicely cooked and
-      golden
-      brown.<br><br>
-      Top with the optional cheese, if desired, and cook uncovered for approximately 5-7minutes. Your potatoes should
-      be nice and crispy.<br><br>
-      Remove from heat, serve and enjoy!
-      </p>
-    </div>
-    <br>
-    <div class="div-7">
-      <p><a href="../index.html">Back to the Main Page</a> <span style="float:right;">This page created as academic
-          activity only.</p></span>
-    </div>
+h1 {
+  font-family: "Pacifico";
+  font-size: 50px;
+  color: #FE9026 !important;
+  font-style: oblique;
+  margin: 0px;
+  /*font-size: 30px; */
+}
 
-    <script src="script.js"></script>
-</body>
+h2 {
+    font-family: "Berkshire Swash" , sans-serif;
+    color: #146AE0 !important;
+    text-shadow: 3px 3px 3px #510321
+    font-style: oblique;
+    margin: 0px;
+    /*font-size: 30px; */
+}
 
-</html>
+h3 {
+    font-family: "Berkshire Swash" , sans-serif;
+    color: #86C923 !important;
+    text-shadow: 3px 3px 3px #510321
+    font-style: oblique;
+    margin: 0px;
+    /*font-size: 30px; */ 
+}    
+
+h4 {
+  color: #E08A14;
+}
+
+p {
+  color: #000000;
+}
+
+a {
+  color: #2694FE !important     
+}
+    
+li {
+  color: black;
+}
+
+figure {
+  background-color: white;
+  width: 500px;
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+}
+    
+fieldset {
+  width: 400px;
+}
+    
+.div-1 {
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    padding: 30px;
+    margin: 0px;
+}
+
+.div-2 {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 25px;
+    margin: 0px;
+}    
+
+.div-3 {
+    background-color: white;
+    width: 800px;
+    height: auto;
+    padding: 25px;
+    margin: 0px;
+}       
+
+.div-4 {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}       
+
+.div-5 {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}      
+
+.div-6 {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}    
+
+.div-7 {
+    background-color: white;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin: 0px;
+}     
+
