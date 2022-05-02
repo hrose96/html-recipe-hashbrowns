@@ -1,0 +1,163 @@
+.wow {
+  width: 100px;
+}
+
+body {
+  background-image: url("/images/full-bloom.png");
+  background-repeat: repeat;
+  color: #00000;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px;
+  /*font-weight: bold; */
+}
+
+h1 {
+  font-family: "Pacifico";
+  font-size: 40px;
+  color: #FE9026 !important;
+  text-shadow: 2px 2px 3px #404040;
+  font-style: oblique;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /*font-size: 30px; */
+}
+
+h2 {
+    font-family: "Berkshire Swash" , sans-serif;
+    color: #146AE0 !important;
+    text-shadow: 2px 2px 3px #404040;
+    font-style: oblique;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /*font-size: 30px; */
+}
+
+h3 {
+    font-family: "Berkshire Swash" , sans-serif;
+    color: #81c21e !important;
+    text-shadow: 2px 2px 3px #404040;
+    font-style: oblique;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    /*font-size: 30px; */ 
+}    
+
+h4 {
+  color: #FE9026;
+  font-size: 28px;
+  text-shadow: 2px 2px 2px #404040;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+p {
+  color: #000000;
+
+}
+
+a {
+  color: #81c21e !important;
+}
+
+
+ul {
+}
+
+ol {
+  margin: 10px;
+  padding: 10px;
+}
+
+#list {
+  margin: 0px;
+  padding: 0px;
+}
+
+#ingredients {
+  margin: 0px;
+  padding: 10px;
+}
+
+#equipment {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
+li {
+  color: black;
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.list {
+  background-color: #FFC300;
+  box-shadow: 3px 3px 3px #b0b0b0;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ingredients {
+
+}
+
+.equipment {
+  
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border: 10px solid white;
+}
+
+figure {
+  width: 400px;
+}
+
+figcaption {
+}
+
+fieldset {
+}
+
+form {
+}
+
+legend {
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
+
+#skill {
+  margin: 0px;
+  padding-top: 0px;
+}
+
+#conversion {
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col"] {
+    float: left;
+    padding: 15px;
+    margin: 0px;
+    /* padding: 15px; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
