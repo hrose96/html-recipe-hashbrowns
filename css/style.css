@@ -3,123 +3,161 @@
 }
 
 body {
-  background-image: url();
-  background: #E8E8E8;
+  background-image: url("/images/full-bloom.png");
+  background-repeat: repeat;
   color: #00000;
-  font-family: "Josefin Sans", sans-serif;
-  margin: 20px;
-  padding: 20px;
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px;
   /*font-weight: bold; */
 }
 
 h1 {
   font-family: "Pacifico";
-  font-size: 50px;
+  font-size: 40px;
   color: #FE9026 !important;
+  text-shadow: 2px 2px 3px #404040;
   font-style: oblique;
-  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   /*font-size: 30px; */
 }
 
 h2 {
     font-family: "Berkshire Swash" , sans-serif;
     color: #146AE0 !important;
-    text-shadow: 3px 3px 3px #510321
+    text-shadow: 2px 2px 3px #404040;
     font-style: oblique;
-    margin: 0px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     /*font-size: 30px; */
 }
 
 h3 {
     font-family: "Berkshire Swash" , sans-serif;
-    color: #86C923 !important;
-    text-shadow: 3px 3px 3px #510321
+    color: #81c21e !important;
+    text-shadow: 2px 2px 3px #404040;
     font-style: oblique;
-    margin: 0px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
     /*font-size: 30px; */ 
 }    
 
 h4 {
-  color: #E08A14;
+  color: #FE9026;
+  font-size: 28px;
+  text-shadow: 2px 2px 2px #404040;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 p {
   color: #000000;
+
 }
 
 a {
-  color: #2694FE !important     
+  color: #81c21e !important;
 }
-    
+
+
+ul {
+}
+
+ol {
+  margin: 10px;
+  padding: 10px;
+}
+
+#list {
+  margin: 0px;
+  padding: 0px;
+}
+
+#ingredients {
+  margin: 0px;
+  padding: 10px;
+}
+
+#equipment {
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
 li {
   color: black;
+  margin-top: 15px;
+  padding: 0px;
+}
+
+.list {
+  background-color: #FFC300;
+  box-shadow: 3px 3px 3px #b0b0b0;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ingredients {
+
+}
+
+.equipment {
+  
+}
+
+img {
+  width: 400px;
+  height: auto;
+  border: 10px solid white;
 }
 
 figure {
-  background-color: white;
-  width: 500px;
-  height: auto;
-  padding: 0px;
-  margin: 0px;
-}
-    
-fieldset {
   width: 400px;
 }
-    
-.div-1 {
-    background-color: white;
-    width: 500px;
-    height: 100px;
-    padding: 30px;
-    margin: 0px;
+
+figcaption {
 }
 
-.div-2 {
-    background-color: white;
-    width: 500px;
-    height: auto;
-    padding: 25px;
-    margin: 0px;
-}    
+fieldset {
+}
 
-.div-3 {
-    background-color: white;
-    width: 800px;
-    height: auto;
-    padding: 25px;
-    margin: 0px;
-}       
+form {
+}
 
-.div-4 {
-    background-color: white;
-    width: 500px;
-    height: auto;
-    padding: 20px;
-    margin: 0px;
-}       
+legend {
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+}
 
-.div-5 {
-    background-color: white;
-    width: 500px;
-    height: auto;
-    padding: 20px;
-    margin: 0px;
-}      
+#skill {
+  margin: 0px;
+  padding-top: 0px;
+}
 
-.div-6 {
-    background-color: white;
-    width: 500px;
-    height: auto;
-    padding: 20px;
-    margin: 0px;
-}    
+#conversion {
+}
 
-.div-7 {
-    background-color: white;
-    width: 500px;
-    height: auto;
-    padding: 20px;
-    margin: 0px;
-}     
+* {
+    box-sizing: border-box;
+}
 
+[class*="col"] {
+    float: left;
+    padding: 15px;
+    margin: 0px;
+    /* padding: 15px; */
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
