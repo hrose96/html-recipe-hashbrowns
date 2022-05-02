@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("/images/full-bloom.png");
+  background-image: url("images/full-bloom.png");
   background-repeat: repeat;
   color: #00000;
   font-family: "Josefin Sans";
